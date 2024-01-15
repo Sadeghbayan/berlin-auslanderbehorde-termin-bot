@@ -1,0 +1,19 @@
+# .gitignore
+
+# Node.js
+node_modules/
+npm-debug.log
+
+# IDE - VSCode
+.vscode/
+*.code-workspace
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Dist directory
+/dist
+
+# Environment variables
+.env

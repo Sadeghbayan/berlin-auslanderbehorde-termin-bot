@@ -1,0 +1,17 @@
+{
+	"name": "berlin-auslanderbehorde-termin-bot",
+	"version": "1.0.0",
+	"description": "A [Selenium](https://www.selenium.dev/) bot for obtaining an appointment at the [Landesamt für Einwanderung](https://otv.verwalt-berlin.de/ams/TerminBuchen) aka Ausänderbehörde in Berlin.",
+	"main": "berlin_bot.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chrome-debugging-client": "^2.0.0",
+		"play-sound": "^1.1.6",
+		"puppeteer": "^21.7.0",
+		"selenium-webdriver": "^4.16.0"
+	}
+}
