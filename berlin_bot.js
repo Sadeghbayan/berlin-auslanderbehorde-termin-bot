@@ -8,7 +8,7 @@ const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 class WebDriver {
 	constructor() {
 		this.driver = null;
-		this.implicitWaitTime = 20000; // in milliseconds
+		this.implicitWaitTime = 10000; // in milliseconds
 	}
 
 	async initialize() {
@@ -38,7 +38,7 @@ class WebDriver {
 
 class BerlinBot {
 	constructor() {
-		this.waitTime = 20000; // in milliseconds
+		this.waitTime = 10000; // in milliseconds
 		this.soundFile = "alarm.wav";
 		this.errorMessage = "Für die gewählte Dienstleistung sind aktuell keine Termine frei! Bitte";
 	}
